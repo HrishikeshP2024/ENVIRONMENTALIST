@@ -1,13 +1,13 @@
 body {
-    background-color: black;
+  background-image: linear-gradient(#ECE0D0, #688680);
 }
 .header {
-    padding: 5px;
-    text-align: center;
-    background: #044750;
-    color: white;
-    font-size: 30px;
-    border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  background: #7D977C;
+  color: white;
+  font-size: 30px;
+  border-radius: 5px;
 }
 .img{
     float: left;
@@ -17,30 +17,30 @@ body {
     border-radius: 5px;
 }
 .menubar {
-    overflow: hidden;
-    background-color: black;
-  }
-  
-  .menubar a {
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 35px ;
-    text-decoration:salmon;
-    font-family:"Gill Sans";
-    border-radius: 20px;
-    font-size: 20px;
-  }
-  
-  .menubar a:hover {
-    background-color: rgb(245, 245, 245);
-    color: rgb(0, 0, 0);
-  }
-  
-  .menubar a.active {
-    background: linear-gradient(rgb(0, 219, 0),green);
-    color: whitesmoke;
-  }
+  overflow: hidden;
+  background-color: black;
+}
+
+.menubar a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 35px ;
+  text-decoration:salmon;
+  font-family:"Gill Sans";
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.menubar a:hover {
+  background-color: #FFEDCB;
+  color: rgb(0, 0, 0);
+}
+
+.menubar a.active {
+  background-color: #005B4B;
+  color: whitesmoke;
+}
 
 
 .footer {
@@ -62,7 +62,7 @@ body {
 
 }
 .text2 {
-    color:white;
+    color:black;
 }
 .row::after {
     content: "";

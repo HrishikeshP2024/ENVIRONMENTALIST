@@ -1,19 +1,20 @@
 body {
-    background-color: black;
+    background-image: linear-gradient(0,#ECE0D0, #688680);
+    padding:10px;
 }
 .header {
-    padding: 5px;
-    text-align: center;
-    background: #044750;
-    color: white;
-    font-size: 30px;
-    border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  background: #7D977C;
+  color: white;
+  font-size: 30px;
+  border-radius: 5px;
 }
 .img{
     float: left;
     height: 75px;
     width:350px;
-    padding: 6px;
+    padding: 0px;
     border-radius: 5px;
 }
 .menubar {
@@ -33,12 +34,12 @@ body {
   }
   
   .menubar a:hover {
-    background-color: rgb(245, 245, 245);
+    background-color: #FFEDCB;
     color: rgb(0, 0, 0);
   }
   
   .menubar a.active {
-    background: linear-gradient(rgb(0, 219, 0),green);
+    background-color: #005B4B;
     color: whitesmoke;
   }
 .footer {
@@ -50,11 +51,11 @@ body {
   border-radius: 5px;
 }
 .text1 {
-  color:white;
+  color:whitesmoke;
   font-size:10px;
 }
 .article {
-  color:white;
+  color:black;
   font-family:comic 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 18px;
 }
